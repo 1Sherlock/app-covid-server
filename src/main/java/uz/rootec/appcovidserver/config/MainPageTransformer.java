@@ -50,7 +50,7 @@ public class MainPageTransformer implements ResourceTransformer {
                 DateFormat targetFormat = new SimpleDateFormat("dd.MM.yyyy HH:mm");
                 String format = targetFormat.format(date1);
                 String format1 = targetFormat.format(time);
-                html = html.replaceAll("<div id=\"root\"></div>", "<div style=\"width:1024px !important;margin:0 auto !important;font-family: 'Roboto', sans-serif;     background-size: 100% 100%;background-repeat: no-repeat;     padding: 20px;    box-sizing: border-box;\"\n" +
+                html = html.replaceAll("<div id=\"root\"></div>", "<div style=\"width:1024px !important;margin:0 auto !important;font-family: 'Roboto', sans-serif; background-image: url('/img.png');    background-size: 100% 100%;background-repeat: no-repeat;     padding: 20px;    box-sizing: border-box;\"\n" +
                             "      data-new-gr-c-s-check-loaded=\"14.1027.0\" data-gr-ext-installed=\"\" cz-shortcut-listen=\"true\">" +
                             "<table style=\"width:100% !important; margin-bottom:30px !important;margin-top:5px !important;font-family: 'Roboto', sans-serif;\">\n" +
                             "    <tbody>\n" +
