@@ -78,7 +78,7 @@ public class MainPageTransformer implements ResourceTransformer {
                             "    <p>Analysis date / Дата сдачи анализа: <span id=\"analise\">" + format + "</span></p>\n" +
                             "    <p>Test result and date / Результат и дата теста: <span id=\"result\">" + patient.getStatus() + " ("+format1+") " +"</span>.</p>\n" +
                             "    <div style=\"text-align:center\"><img\n" +
-                            "            src=\"https://api.qrserver.com/v1/create-qr-code/?size=320x320&data=https://app-covidd.herokuapp.com/viewResult/"+ url.split("/")[2] +"\"\n" +
+                            "            src=\"https://api.qrserver.com/v1/create-qr-code/?size=320x320&data=https://app-server-app.herokuapp.com/viewResult/"+ url.split("/")[2] +"\"\n" +
                             "            id=\"qr\"\n" +
                             "            style=\"width:320px!important\"></div>\n" +
                             "</div>\n" +
